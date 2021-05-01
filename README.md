@@ -17,6 +17,8 @@ A chatbot with tkinter gui that answers queries related to higher education usin
   - `pip install ttkthemes`
 - matplotlib Module
   - `pip install matplotlib`
+- seaborn Module
+  - `pip install seaborn`
 - sklearn Module
   - `pip install sklearn`
 - Download all the files in the folder and keep them in the same workspace
@@ -31,7 +33,7 @@ A chatbot with tkinter gui that answers queries related to higher education usin
   - Queries such as 'What are my chances of college admission?', 'What are my odds of getting into a college?', 'Can I get a seat in a top college', etc. enter this flow.
   - Any question with keywords such as 'chance', 'chances', 'get', 'get in', etc. enter this flow.
   - The chatbot subsequently asks for your GRE, TOEFL, SOP, LOR, Desired University Rating (1 being highest and 5 is lowest) and whether you have done any research or not.
-  - Finally it predicts your admission chances in percentage and presents a graph of correlation when the 'Plot' button is pressed.
+  - Finally it predicts your admission chances(using SVR) in percentage and presents a graph of correlation when the 'Plot' button is pressed.
 - College Event Query:
   - Queries such as 'What are the events happening in harvard university?', 'Name some cycling events happening in US colleges', 'List the events happening in western region', etc. enter this flow.
   - Any question with keywords such as 'event', 'events', 'fair', 'competition', 'party', etc enter this flow.
@@ -45,6 +47,9 @@ A chatbot with tkinter gui that answers queries related to higher education usin
 - Normal Chatbot Conversation:
   - Queries that do not have any specific keywords that are required to trigger the above flows enter this flow.
   - The chatbot is trained with chatterbot-corpus english and can give replies on various topics such as AI, science, philosophy, pscyhology, trivia, sports, etc.
+
+## Future:
+Currently, much of the code is hard coded with the dataset but in the future I would like to make an FAQ chatbot that can work with any dataset. This goal is partially implemented with the fun fact generation code. This code provides fun facts which are essentially values from the dataset which are either randomly taken from the dataset or taken after the user repeatedly asks for a certain type of query.
 
 ## Credits:
 - Datasets:
