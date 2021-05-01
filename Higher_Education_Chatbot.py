@@ -101,7 +101,7 @@ quantitative_keywords = [
     "least",
     "worst",
     "lowest"),
-    ("middle", #Middle
+    ("middle", #Average
     "mean",
     "median",
     "good",
@@ -300,13 +300,12 @@ def handle_quant_cond(row_r,quant_cond):
     if quant_cond == 'top':
         max_value = row_r['Starting Median Salary'].max()
         row = row_r.loc[row_r['Starting Median Salary'] == max_value]
-        op = str(row["School Name"].tolist()[0]) + " has starting salary of " + max_value
+        op = str(row["School Name"].tolist()[0]) + " has starting salary of " + max_value + ".\n"
     elif quant_cond == 'bottom':
         min_value = row_r['Starting Median Salary'].min()
         row = row_r.loc[row_r['Starting Median Salary'] == min_value]
-        op = str(row["School Name"].tolist()[0]) + " has starting salary of " + min_value
+        op = str(row["School Name"].tolist()[0]) + " has starting salary of " + min_value + ".\n"
     elif quant_cond == 'middle':
-        #print(row_r)
         col = row_r['Starting Median Salary'].replace({'\$': '', ',': ''}, regex=True).astype(float)
         #print(col)
         mean_value = col.mean()
@@ -315,28 +314,30 @@ def handle_quant_cond(row_r,quant_cond):
         #print(result_index)
         row = row_r.loc[result_index]
         #print(row)
-        op = row["School Name"] + " has starting salary of " + row["Starting Median Salary"]
+        op = row["School Name"] + " has starting salary of " + row["Starting Median Salary"] + ".\n"
     return op
+
+# l = [[quantitative_keywords],[subject_keywords],[college_name],[region],[college_type],[degree_major]]
 
 def get_college_career_data(l):
     degree_data_lc = degree_data.applymap(lambda s:s.lower() if type(s) == str else s)
     college_data_lc = college_data.applymap(lambda s:s.lower() if type(s) == str else s)
     region_data_lc = region_data.applymap(lambda s:s.lower() if type(s) == str else s)
-    if len(l[2]) != 0: #College
+    if len(l[2]) != 0: #College or University Name
         row = college_data_lc.loc[college_data_lc['School Name'] == l[2][0]]
-        op = str(row["School Name"].tolist()[0]) + " has starting salary of " + str(row["Starting Median Salary"].tolist()[0])
-    elif len(l[5]) != 0: #Degrees
+        op = str(row["School Name"].tolist()[0]) + " has starting salary of " + str(row["Starting Median Salary"].tolist()[0] + ".\n")
+    elif len(l[5]) != 0: #Degree Major
         row = degree_data_lc.loc[degree_data_lc['Undergraduate Major'] == l[5][0]]
-        op = str(row["Undergraduate Major"].tolist()[0]) + " has starting salary of " + str(row["Starting Median Salary"].tolist()[0])
+        op = str(row["Undergraduate Major"].tolist()[0]) + " has starting salary of " + str(row["Starting Median Salary"].tolist()[0] + ".\n")
     elif len(l[3]) != 0: #Regions
         if len(l[0]) != 0:
             row_r = region_data_lc.loc[region_data_lc['Region'] == l[3][0]]
             op = handle_quant_cond(row_r,l[0][0])
-    elif len(l[4]) != 0: #College Types
+    elif len(l[4]) != 0: #College Type (State, ivy league, engineering, liberal arts, ...)
         if len(l[0]) !=0:
             row_r = college_data_lc.loc[college_data_lc['School Type'] == l[4][0]]
             op = handle_quant_cond(row_r,l[0][0])
-    elif len(l[0]) !=0: #Quantitative
+    elif len(l[0]) !=0: #Quantitative (top, good, low rated)
         row_r = college_data_lc
         op = handle_quant_cond(row_r,l[0][0])
     
@@ -404,11 +405,11 @@ def get_event_data(ip):
     if len(ip[1]) != 0:
         temp = event_data[event_data_lc['School Name'] == ip[1][0]]
         if str(temp['No Of Covid Cases'].tolist()[0]) == 'High':
-            op = ip[1][0] + " has an event of " + str(temp['Events'].tolist()[0]) + "." + "Since no of covid cases are high in that region, so better stay home and stay safe . "
+            op = ip[1][0] + " has an event of " + str(temp['Events'].tolist()[0]) + "." + "Since no of covid cases are high in that region, please avoid attending the event. \n"
         elif str(temp['No Of Covid Cases'].tolist()[0]) == 'Medium':
-            op = ip[1][0] + " has an event of " + str(temp['Events'].tolist()[0]) + "." + " Since no of covid cases are medium in that region, take precautionary measures will going out and always wear mask .  "
+            op = ip[1][0] + " has an event of " + str(temp['Events'].tolist()[0]) + "." + " Since no of covid cases are medium in that region, take precautionary measures while going out and always wear mask. \n "
         else:
-             op = ip[1][0] + " has an event of " + str(temp['Events'].tolist()[0]) + "." + " And no of covid cases are less in that region and always wear mask while going out .  "
+             op = ip[1][0] + " has an event of " + str(temp['Events'].tolist()[0]) + "." + " Since no of covid cases are less in that region, always wear a mask while going out. \n "
        
             
             
@@ -423,12 +424,12 @@ def get_event_data(ip):
            xyz = temp.sample(3)
            
            if str(temp['No Of Covid Cases'].tolist()[0]) == 'High':
-                op = ip[2][0] + " region has " + str(temp.shape[0]) + " events. And some events are " + str(xyz['Events'].tolist()[0]) + "," + str(xyz['Events'].tolist()[1]) + "," + str(xyz['Events'].tolist()[2]) + "." + "Since no of covid cases are high in that region, so better stay home and stay safe . "
+                op = ip[2][0] + " region has " + str(temp.shape[0]) + " events including " + str(xyz['Events'].tolist()[0]) + "," + str(xyz['Events'].tolist()[1]) + "," + str(xyz['Events'].tolist()[2]) + "." + "Since no of covid cases are high in that region, please avoid attending the event. \n"
             
            elif str(temp['No Of Covid Cases'].tolist()[0]) == 'Medium':
-                op = ip[2][0] + " region has " + str(temp.shape[0]) + " events. And some events are " + str(xyz['Events'].tolist()[0]) + "," + str(xyz['Events'].tolist()[1]) + "," + str(xyz['Events'].tolist()[2]) +  "." + " Since no of covid cases are medium in that region, take precautionary measures will going out and always wear mask .  "
+                op = ip[2][0] + " region has " + str(temp.shape[0]) + " events including " + str(xyz['Events'].tolist()[0]) + "," + str(xyz['Events'].tolist()[1]) + "," + str(xyz['Events'].tolist()[2]) +  "." + " Since no of covid cases are medium in that region, take precautionary measures while going out and always wear mask. \n "
            else:
-                op = ip[2][0] + " region has " + str(temp.shape[0]) + " events. And some events are " + str(xyz['Events'].tolist()[0]) + "," + str(xyz['Events'].tolist()[1]) + "," + str(xyz['Events'].tolist()[2]) +  "." + " And no of covid cases are less in that region and always wear mask while going out .  "
+                op = ip[2][0] + " region has " + str(temp.shape[0]) + " events including " + str(xyz['Events'].tolist()[0]) + "," + str(xyz['Events'].tolist()[1]) + "," + str(xyz['Events'].tolist()[2]) +  "." + " Since no of covid cases are less in that region, always wear a mask while going out. \n "
  
            #op = ip[2][0] + " region has " + str(temp.shape[0]) + " events. And some events are " + str(xyz['Events'].tolist()[0]) + "," + str(xyz['Events'].tolist()[1]) + "," + str(xyz['Events'].tolist()[2]) + "." 
            
@@ -439,7 +440,7 @@ def get_event_data(ip):
             op = ip[3][0] + " will be held at " + str(temp['School Name'].tolist()[0]) + "."
         else:
             xyz = temp.sample(3)
-            op = ip[3][0] + " event will be held at " + str( temp.shape[0]) + " colleges. And some of the colleges are " + str(xyz['School Name'].tolist()[0]) + "," + str(xyz['School Name'].tolist()[1]) + "," + str(xyz['School Name'].tolist()[2]) + ". Always wear mask while you go out. " 
+            op = ip[3][0] + " event will be held at " + str( temp.shape[0]) + " colleges including " + str(xyz['School Name'].tolist()[0]) + ", " + str(xyz['School Name'].tolist()[1]) + " and " + str(xyz['School Name'].tolist()[2]) + ". Always wear mask while you go out. \n" 
         
                           
                           
@@ -836,9 +837,7 @@ def plot():
     if not out_plot:
         # fig = plt.Figure()
         # ax1 = fig.add_subplot(111)
-        fig, ax1 = plt.subplots(figsize=(5, 3))
-        out_plot = FigureCanvasTkAgg(fig, base)
-        out_plot.get_tk_widget().place(x=401,y=6)
+        
         
         # figure = Figure(figsize=(6, 6))
         # ax = figure.subplots()
@@ -847,6 +846,9 @@ def plot():
         # df1.plot(kind='bar', legend=True, ax=ax1)
         # ax1.set_title('Country Vs. GDP Per Capita')
         if plot_mode == 1:
+            fig, ax1 = plt.subplots(figsize=(5, 3))
+            out_plot = FigureCanvasTkAgg(fig, base)
+            out_plot.get_tk_widget().place(x=401,y=6)
             sns.barplot(x="University Rating",y="Chance of Admit ",data=plot_data, ax=ax1)
     else:
         clear_plot()
