@@ -25,6 +25,9 @@ A chatbot with tkinter gui that answers queries related to higher education usin
 - Run the `Higher_Education_Chatbot.py` file on your python IDE
 - A tkinter GUI with a chatbot type interface and a plot button on the right should appear
 
+## Flowchart:
+![WhatsApp Image 2021-04-29 at 4 55 51 PM](https://user-images.githubusercontent.com/45400093/116784572-9bd10700-aab2-11eb-966c-8a61545d4aef.jpeg)
+
 ## Credits:
 - Datasets:
   - [College-career dataset](https://www.kaggle.com/wsj/college-salaries)
