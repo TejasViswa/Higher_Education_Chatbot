@@ -1,0 +1,321 @@
+School Name,Region,Events,No Of Covid Cases
+Stanford University,California,Soccer,1
+California Institute of Technology (CIT),California,Poetry Writing,High
+Harvey Mudd College,California,Painting,High
+"University of California, Berkeley",California,Story Writing,High
+Occidental College,California,Bowling,High
+Cal Poly San Luis Obispo,California,Handcrafts,High
+University of California at Los Angeles (UCLA),California,Cultural,High
+"University of California, San Diego (UCSD)",California,Fashion,High
+Pomona College,California,Debate,High
+University of Southern California (USC),California,Startup,High
+"University of California, Davis",California,Techfest,High
+"University of California, Irvine (UCI)",California,Chess,High
+San Jose State University (SJSU),California,Football,High
+"University of California, Santa Barbara (UCSB)",California,Hackathon,High
+"California State University (CSU), Chico",California,Dance,High
+"California State University, Fullerton (CSUF)",California,Singing,High
+San Francisco State University (SFSU),California,Hockey,High
+San Diego State University (SDSU),California,Badminton,High
+"California State University, Long Beach (CSULB)",California,Boxing,High
+"California State University, East Bay (CSUEB)",California,Vocal,High
+"University of California, Santa Cruz (UCSC)",California,Cycling,High
+"California State University, Sacramento (CSUS)",California,Table,High
+"University of California, Riverside (UCR)",California,Basketball,High
+"California State University, Northridge (CSUN)",California,Carrom,High
+"California State University, Dominguez Hills (CSUDH)",California,Volleyball,High
+"California State University (CSU), Stanislaus",California,Cricket,High
+Humboldt State University,California,Swimming,High
+Thomas Aquinas College,California,Archery,High
+Colorado School of Mines,Western,Photography,Low
+University of Colorado - Boulder (UCB),Western,Soccer,Low
+New Mexico Institute of Mining and Technology (New Mexico Tech),Western,Poetry Writing,Low
+Brigham Young University (BYU),Western,Painting,Low
+University of Arizona,Western,Story Writing,Low
+University of Washington (UW),Western,Bowling,Low
+Washington State University (WSU),Western,Handcrafts,Low
+University of Colorado - Denver,Western,Cultural,Low
+Arizona State University (ASU),Western,Fashion,low
+Oregon State University (OSU),Western,Debate,Low
+University of Utah,Western,Startup,Low
+"University of Nevada, Reno (UNR)",Western,Techfest,Low
+Seattle University,Western,Chess,Low
+University of Idaho,Western,Football,Low
+University of New Mexico (UNM),Western,Hackathon,Low
+University of Puget Sound,Western,Dance,low
+Colorado College (CC),Western,Singing,Low
+Reed College,Western,Hockey,Low
+Whitman College,Western,Badminton,Low
+New Mexico State University,Western,Boxing,Low
+Colorado State University (CSU),Western,Vocal,Low
+University of Wyoming (UW),Western,Cycling,Low
+Utah State University,Western,Table,low
+University of Oregon,Western,Basketball,Low
+Montana State University - Bozeman,Western,Carrom,Low
+Gonzaga University,Western,Volleyball,Low
+University of Hawaii,Western,Cricket,Low
+Western Washington University,Western,Swimming,Low
+Regis University,Western,Archery,Low
+Idaho State University,Western,Photography,low
+"University of Alaska, Anchorage",Western,Soccer,Low
+Lewis & Clark College,Western,Poetry Writing,Low
+University of Montana,Western,Painting,Low
+"University of Nevada, Las Vegas (UNLV)",Western,Story Writing,Low
+Portland State University (PSU),Western,Bowling,Low
+Eastern Washington University,Western,Handcrafts,Low
+Fort Lewis College,Western,Cultural,low
+Boise State University (BSU),Western,Fashion,Low
+Utah Valley State College,Western,Debate,Low
+Evergreen State College,Western,Startup,Low
+Southern Utah University,Western,Techfest,Low
+Montana State University - Billings,Western,Chess,Low
+University of Notre Dame,Midwestern,Football,Medium
+University Of Chicago,Midwestern,Hackathon,Medium
+Carleton College,Midwestern,Dance,Medium
+Illinois Institute of Technology (IIT),Midwestern,Singing,Medium
+Case Western Reserve University,Midwestern,Hockey,Medium
+University of Illinois at Urbana-Champaign (UIUC),Midwestern,Badminton,Medium
+Northwestern University,Midwestern,Boxing,Medium
+University of Missouri - Rolla (UMR),Midwestern,Vocal,Medium
+South Dakota School of Mines & Technology,Midwestern,Cycling,Medium
+University of Michigan,Midwestern,Table,Medium
+Purdue University,Midwestern,Basketball,Medium
+Marquette University,Midwestern,Carrom,Medium
+DePauw University,Midwestern,Volleyball,Medium
+University of Wisconsin (UW) - Madison,Midwestern,Cricket,Medium
+Bradley University,Midwestern,Swimming,Medium
+St. Olaf College,Midwestern,Archery,Medium
+Michigan State University (MSU),Midwestern,Photography,Medium
+DePaul University,Midwestern,Soccer,Medium
+Iowa State University,Midwestern,Poetry Writing,Medium
+University of Minnesota,Midwestern,Painting,Medium
+"Indiana University (IU), Bloomington",Midwestern,Story Writing,Medium
+University of Iowa (UI),Midwestern,Bowling,Medium
+Ohio State University (OSU),Midwestern,Handcrafts,Medium
+Denison University,Midwestern,Cultural,Medium
+University of Illinois at Chicago,Midwestern,Fashion,Medium
+Oberlin College,Midwestern,Debate,Medium
+University of Kansas,Midwestern,Startup,Medium
+University of Missouri - Columbia,Midwestern,Techfest,Medium
+University of Nebraska,Midwestern,Chess,Medium
+Northern Illinois University (NIU),Midwestern,Football,Medium
+Gustavus Adolphus College,Midwestern,Hackathon,Medium
+University of North Dakota,Midwestern,Dance,Medium
+Kansas State University (KSU),Midwestern,Singing,Medium
+University of Wisconsin (UW) - Platteville,Midwestern,Hockey,Medium
+Wittenberg University,Midwestern,Badminton,Medium
+North Dakota State University (NDSU),Midwestern,Boxing,Medium
+Grinnell College,Midwestern,Vocal,Medium
+Wayne State University,Midwestern,Cycling,Medium
+University of Toledo,Midwestern,Table,Medium
+University of Wisconsin (UW) - Whitewater,Midwestern,Basketball,Medium
+Minnesota State University - Mankato,Midwestern,Carrom,Medium
+University of Wisconsin (UW) - Milwaukee,Midwestern,Volleyball,Medium
+Western Michigan University (WMU),Midwestern,Cricket,Medium
+South Dakota State University (SDSU),Midwestern,Swimming,Medium
+Ohio University,Midwestern,Archery,Medium
+Illinois State University,Midwestern,Photography,Medium
+Cleveland State University,Midwestern,Soccer,Medium
+University of Nebraska at Omaha,Midwestern,Poetry Writing,Medium
+Southern Illinois University Carbondale,Midwestern,Painting,Medium
+Eastern Michigan University,Midwestern,Story Writing,Medium
+Bowling Green State University,Midwestern,Bowling,Medium
+St. Cloud State University,Midwestern,Handcrafts,Medium
+University of Wisconsin (UW) - Parkside,Midwestern,Cultural,Medium
+University of Akron,Midwestern,Fashion,Medium
+Missouri State University (MSU),Midwestern,Debate,Medium
+University of Wisconsin (UW) - La Crosse,Midwestern,Startup,Medium
+University of Wisconsin (UW) - Stout,Midwestern,Techfest,Medium
+Robert Morris College (RMC),Midwestern,Chess,Medium
+University of Missouri - St. Louis (UMSL),Midwestern,Football,Medium
+University of Wisconsin (UW) - Oshkosh,Midwestern,Hackathon,Medium
+University of Missouri - Kansas City (UMKC),Midwestern,Dance,Medium
+University of Wisconsin (UW) - Eau Claire,Midwestern,Singing,Medium
+Ball State University (BSU),Midwestern,Hockey,Medium
+Park University,Midwestern,Badminton,Medium
+University of Wisconsin (UW) - Stevens Point,Midwestern,Boxing,Medium
+Kent State University,Midwestern,Vocal,Medium
+University of Wisconsin (UW) - Green Bay,Midwestern,Cycling,Medium
+Indiana Wesleyan University (IWU),Midwestern,Table,Medium
+Pittsburg State University,Midwestern,Basketball,Medium
+Davenport University,Midwestern,Carrom,Medium
+Black Hills State University,Midwestern,Volleyball,Medium
+Rice University,Southern,Cricket,Low
+Georgetown University,Southern,Swimming,Low
+Duke University,Southern,Archery,Low
+Georgia Institute of Technology,Southern,Photography,Low
+Washington and Lee University,Southern,Soccer,Low
+Vanderbilt University,Southern,Poetry Writing,Low
+Davidson College,Southern,Painting,low
+University of Virginia (UVA),Southern,Story Writing,Low
+George Washington University (GWU),Southern,Bowling,Low
+Texas A&M University,Southern,Handcrafts,Low
+Tulane University,Southern,Cultural,Low
+Virginia Polytechnic Institute and State University (Virginia Tech),Southern,Fashion,Low
+"University of Maryland, College Park",Southern,Debate,Low
+University of Richmond,Southern,Startup,low
+University of Texas (UT) - Austin,Southern,Techfest,Low
+Emory University,Southern,Chess,Low
+"American University, Washington D.C.",Southern,Football,Low
+University of Tulsa,Southern,Hackathon,Low
+Baylor University,Southern,Dance,low
+University of Florida (UF),Southern,Singing,Low
+Louisiana State University (LSU),Southern,Hockey,Low
+George Mason University,Southern,Badminton,Low
+Clemson University,Southern,Boxing,Low
+University of Georgia (UGA),Southern,Vocal,Low
+Auburn University,Southern,Cycling,Low
+University of Delaware,Southern,Table,low
+Randolph-Macon College,Southern,Basketball,Low
+North Carolina State University (NCSU),Southern,Carrom,Low
+University of Oklahoma,Southern,Volleyball,Low
+University of Arkansas,Southern,Cricket,Low
+University of Alabama at Huntsville (UAH),Southern,Swimming,low
+Howard University,Southern,Archery,Low
+University of North Carolina at Chapel Hill (UNCH),Southern,Photography,Low
+"University of Alabama, Tuscaloosa",Southern,Soccer,Low
+University of Texas at Arlington (UTA),Southern,Poetry Writing,Low
+Oklahoma State University,Southern,Painting,Low
+Tennessee Technological University,Southern,Story Writing,Low
+University of Houston (UH),Southern,Bowling,low
+University of Mississippi,Southern,Handcrafts,Low
+Lamar University,Southern,Cultural,Low
+Mississippi State University (MSU),Southern,Fashion,Low
+University of Kentucky (UK),Southern,Debate,Low
+Texas Christian University (TCU),Southern,Startup,low
+West Virginia University (WVU),Southern,Techfest,Low
+University of Maryland Baltimore County (UMBC),Southern,Chess,Low
+University of Louisiana (UL) at Lafayette,Southern,Football,Low
+Florida International University (FIU),Southern,Hackathon,Low
+University of Tennessee,Southern,Dance,Low
+University of Arkansas - Monticello (UAM),Southern,Singing,Low
+University of North Carolina at Charlotte (UNCC),Southern,Hockey,low
+Georgia State University,Southern,Badminton,Low
+LeTourneau University,Southern,Boxing,Low
+Florida State University (FSU),Southern,Vocal,Low
+University of Texas at El Paso (UTEP),Southern,Cycling,Low
+University of Central Florida (UCF),Southern,Table,low
+University of South Carolina,Southern,Basketball,Low
+Florida Atlantic University (FAU),Southern,Carrom,Low
+University of South Florida (USF),Southern,Volleyball,Low
+University of Texas at San Antonio (UTSA),Southern,Cricket,Low
+University of Alabama at Birmingham (UAB),Southern,Swimming,Low
+University of Memphis (U of M),Southern,Archery,Low
+Appalachian State University,Southern,Photography,low
+Virginia Commonwealth University (VCU),Southern,Soccer,Low
+East Carolina University (ECU),Southern,Poetry Writing,Low
+Western Carolina University,Southern,Painting,Low
+Jacksonville University,Southern,Story Writing,Low
+University of North Carolina at Wilmington (UNCW),Southern,Bowling,low
+Oklahoma City University,Southern,Handcrafts,Low
+Arkansas State University (ASU),Southern,Cultural,Low
+Tarleton State University (TSU),Southern,Fashion,Low
+Morehead State University,Southern,Debate,Low
+Mississippi College,Southern,Startup,Low
+Dallas Baptist University,Southern,Techfest,Low
+Austin Peay State University,Southern,Chess,low
+Saint Leo University,Southern,Football,Low
+Tusculum College,Southern,Hackathon,low
+Virginia Wesleyan College (VWC),Southern,Dance,Low
+"Lee University (Cleveland, TN)",Southern,Singing,Low
+Florida Metropolitan University (FMU),Southern,Hockey,Low
+Dartmouth College,Northeastern,Badminton,Medium
+Princeton University,Northeastern,Boxing,Medium
+Massachusetts Institute of Technology (MIT),Northeastern,Vocal,Medium
+Yale University,Northeastern,Cycling,Medium
+Harvard University,Northeastern,Table,Medium
+University of Pennsylvania,Northeastern,Basketball,Medium
+"Polytechnic University of New York, Brooklyn",Northeastern,Carrom,Medium
+Cooper Union,Northeastern,Volleyball,Medium
+Worcester Polytechnic Institute (WPI),Northeastern,Cricket,Medium
+Carnegie Mellon University (CMU),Northeastern,Swimming,Medium
+Rensselaer Polytechnic Institute (RPI),Northeastern,Archery,Medium
+Cornell University,Northeastern,Photography,Medium
+Bucknell University,Northeastern,Soccer,Medium
+Brown University,Northeastern,Poetry Writing,Medium
+Colgate University,Northeastern,Painting,Medium
+Columbia University,Northeastern,Story Writing,Medium
+Amherst College,Northeastern,Bowling,Medium
+Lafayette College,Northeastern,Handcrafts,Medium
+Bowdoin College,Northeastern,Cultural,Medium
+College of the Holy Cross,Northeastern,Fashion,Medium
+Stevens Institute of Technology,Northeastern,Debate,Medium
+Lehigh University,Northeastern,Startup,Medium
+Swarthmore College,Northeastern,Techfest,Medium
+Boston College,Northeastern,Chess,Medium
+Williams College,Northeastern,Football,Medium
+Villanova University,Northeastern,Hackathon,Medium
+Fordham University,Northeastern,Dance,Medium
+"Wesleyan University (Middletown, Connecticut)",Northeastern,Singing,Medium
+Wentworth Institute of Technology,Northeastern,Hockey,Medium
+Bates College,Northeastern,Badminton,Medium
+Binghamton University,Northeastern,Boxing,Medium
+Union College,Northeastern,Vocal,Medium
+New York University (NYU),Northeastern,Cycling,Medium
+Vassar College,Northeastern,Table,Medium
+Middlebury College,Northeastern,Basketball,Medium
+Mount Holyoke College,Northeastern,Carrom,Medium
+Boston University,Northeastern,Volleyball,Medium
+Drexel University,Northeastern,Cricket,Medium
+"St. John's University, New York",Northeastern,Swimming,Medium
+Long Island University,Northeastern,Archery,Medium
+Stony Brook University,Northeastern,Photography,Medium
+Franklin and Marshall College,Northeastern,Soccer,Medium
+Hofstra University,Northeastern,Poetry Writing,Medium
+State University of New York (SUNY) at Albany,Northeastern,Painting,Medium
+Rutgers University,Northeastern,Story Writing,Medium
+Pratt Institute,Northeastern,Bowling,Medium
+Pace University,Northeastern,Handcrafts,Medium
+Seton Hall University,Northeastern,Cultural,Medium
+Rider University,Northeastern,Fashion,Medium
+University of Connecticut (UConn),Northeastern,Debate,Medium
+Providence College,Northeastern,Startup,Medium
+University of Massachusetts (UMass) - Amherst,Northeastern,Techfest,Medium
+Ithaca College,Northeastern,Chess,Medium
+University of Massachusetts (UMass) - Lowell,Northeastern,Football,Medium
+Northeastern University,Northeastern,Hackathon,Medium
+Syracuse University,Northeastern,Dance,Medium
+Colby College,Northeastern,Singing,Medium
+Gettysburg College,Northeastern,Hockey,Medium
+Pennsylvania State University (PSU),Northeastern,Badminton,Medium
+University of Rhode Island (URI),Northeastern,Boxing,Medium
+Siena College,Northeastern,Vocal,Medium
+La Salle University (Philadelphia),Northeastern,Cycling,Medium
+Rochester Institute of Technology (RIT),Northeastern,Table,Medium
+Duquesne University,Northeastern,Basketball,Medium
+State University of New York (SUNY) at Farmingdale,Northeastern,Carrom,Medium
+Smith College,Northeastern,Volleyball,Medium
+Hamilton College,Northeastern,Cricket,Medium
+Wellesley College,Northeastern,Swimming,Medium
+Widener University,Northeastern,Archery,Medium
+University of New Haven,Northeastern,Photography,Medium
+Dowling College,Northeastern,Soccer,Medium
+University of Vermont (UVM),Northeastern,Poetry Writing,Medium
+State University of New York (SUNY) at Buffalo,Northeastern,Painting,Medium
+State University of New York (SUNY) at Geneseo,Northeastern,Story Writing,Medium
+Fashion Institute of Technology,Northeastern,Bowling,Medium
+Philadelphia University,Northeastern,Handcrafts,Medium
+Ursinus College,Northeastern,Cultural,Medium
+Adelphi University,Northeastern,Fashion,Medium
+Juniata College,Northeastern,Debate,Medium
+Fairleigh Dickinson University,Northeastern,Startup,Medium
+University of New Hampshire (UNH),Northeastern,Techfest,Medium
+University of Massachusetts (UMass) - Boston,Northeastern,Chess,Medium
+State University of New York (SUNY) at Oswego,Northeastern,Football,Medium
+University of Massachusetts (UMass) - Dartmouth,Northeastern,Hackathon,Medium
+State University of New York (SUNY) at Oneonta,Northeastern,Dance,Medium
+Quinnipiac University,Northeastern,Singing,Medium
+State University of New York (SUNY) at Plattsburgh,Northeastern,Hockey,Medium
+Sacred Heart University,Northeastern,Badminton,Medium
+Skidmore College,Northeastern,Boxing,Medium
+Moravian College,Northeastern,Vocal,Medium
+Penn State - Harrisburg,Northeastern,Cycling,Medium
+Suffolk University,Northeastern,Table,Medium
+Fitchburg State College,Northeastern,Basketball,Medium
+Roger Williams University,Northeastern,Carrom,Medium
+University Of Maine,Northeastern,Volleyball,Medium
+State University of New York (SUNY) at Potsdam,Northeastern,Cricket,Medium
+Niagara University,Northeastern,Swimming,Medium
+State University of New York (SUNY) at Fredonia,Northeastern,Archery,Medium
+University of Southern Maine,Northeastern,Photography,Medium
+Mercy College,Northeastern,Archery,Medium
