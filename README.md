@@ -24,6 +24,7 @@ A chatbot with tkinter gui that answers queries related to higher education usin
 - Download all the files in the folder and keep them in the same workspace
 - Run the `Higher_Education_Chatbot.py` file on your python IDE
 - A tkinter GUI with a chatbot type interface and a plot button on the right should appear
+  - ![Capture](https://user-images.githubusercontent.com/45400093/116785537-ba85cc80-aab7-11eb-93ed-2ef773b6401d.PNG)
 
 ## Flowchart:
 ![WhatsApp Image 2021-04-29 at 4 55 51 PM](https://user-images.githubusercontent.com/45400093/116784572-9bd10700-aab2-11eb-966c-8a61545d4aef.jpeg)
@@ -34,6 +35,7 @@ A chatbot with tkinter gui that answers queries related to higher education usin
   - Any question with keywords such as 'chance', 'chances', 'get', 'get in', etc. enter this flow.
   - The chatbot subsequently asks for your GRE, TOEFL, SOP, LOR, Desired University Rating (1 being highest and 5 is lowest) and whether you have done any research or not.
   - Finally it predicts your admission chances(using SVR) in percentage and presents a graph of correlation when the 'Plot' button is pressed.
+  - ![Capture 1](https://user-images.githubusercontent.com/45400093/116785554-db4e2200-aab7-11eb-8e61-81da326aa65e.PNG)
 - College Event Query:
   - Queries such as 'What are the events happening in harvard university?', 'Name some cycling events happening in US colleges', 'List the events happening in western region', etc. enter this flow.
   - Any question with keywords such as 'event', 'events', 'fair', 'competition', 'party', etc enter this flow.
