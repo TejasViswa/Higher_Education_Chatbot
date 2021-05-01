@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat May  1 18:50:07 2021
-
-@author: TEJAS
-"""
-# -- coding: utf-8 --
-"""
-Created on Thu Apr 29 20:34:02 2021
-
-@author: tejasv
-"""
-
 # -- coding: utf-8 --
 """
 Created on Sun Apr 25 23:49:30 2021
